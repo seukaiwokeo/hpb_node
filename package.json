@@ -1,0 +1,43 @@
+{
+  "name": "hpb_node",
+  "version": "1.0.0",
+  "description": "Hyper Payment Bridge Node Server",
+  "keywords": [
+    "payment",
+    "bridge",
+    "knight",
+    "online",
+    "game"
+  ],
+  "homepage": "https://github.com/seukaiwokeo/hpb_node#readme",
+  "bugs": {
+    "url": "https://github.com/seukaiwokeo/hpb_node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seukaiwokeo/hpb_node.git"
+  },
+  "license": "MIT",
+  "author": "seukaiwokeo",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "joi": "^18.0.1",
+    "mssql": "^12.1.0",
+    "mysql2": "^3.15.3",
+    "winston": "^3.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
